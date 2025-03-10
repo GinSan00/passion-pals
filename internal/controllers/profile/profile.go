@@ -32,7 +32,7 @@ func (profile *ProfileService) GetUserProfile(c *gin.Context) {
 	// Приводим к map[string]interface{} сначала
 	userClaims, ok := claims.(jwt.MapClaims)
 	if !ok {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Invalid claims format"})
+		c.JSON(http.StatusInternalServerError, gin.H{"error": " Invalid claims format"})
 		return
 	}
 
@@ -41,7 +41,7 @@ func (profile *ProfileService) GetUserProfile(c *gin.Context) {
 	userID := int(userIDFloat)
 
 	if !ok {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "User ID not found in token"})
+		c.JSON(http.StatusInternalServerError, gin.H{"error": " User ID not found in token"})
 		return
 	}
 
