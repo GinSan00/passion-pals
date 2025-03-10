@@ -22,7 +22,7 @@ jobs:
         run: go mod tidy
 
       - name: Build Go app
-        run: go build -o passion-pals-backend ./cmd
+        run: GOOS=linux GOARCH=amd64 go build -o passion-pals-backend ./cmd
 
       - name: Deploy to server
         uses: appleboy/scp-action@master
