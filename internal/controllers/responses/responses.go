@@ -1,9 +1,9 @@
 package responses
 
 import (
-	"hunt/internal/repository"
 	"log/slog"
 	"net/http"
+	"passion-pals-backend/internal/repository"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt"

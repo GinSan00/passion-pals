@@ -1,7 +1,7 @@
 package profilehttp
 
 import (
-	"hunt/internal/utils/middleware"
+	"passion-pals-backend/internal/utils/middleware"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,4 +1,4 @@
-module hunt
+module passion-pals-backend
 
 go 1.23.2
 

@@ -2,10 +2,10 @@ package httppapp
 
 import (
 	"fmt"
-	authhttp "hunt/internal/http/auth" // Предположим, что у вас есть HTTP-хендлеры для auth
-	profilehttp "hunt/internal/http/profile"
 	"log/slog"
 	"net/http"
+	authhttp "passion-pals-backend/internal/http/auth" // Предположим, что у вас есть HTTP-хендлеры для auth
+	profilehttp "passion-pals-backend/internal/http/profile"
 
 	"github.com/gin-contrib/cors"
 

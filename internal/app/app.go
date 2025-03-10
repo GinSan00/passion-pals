@@ -1,11 +1,11 @@
 package app
 
 import (
-	httppapp "hunt/internal/app/httpapp"
-	"hunt/internal/controllers/auth"
-	"hunt/internal/controllers/profile"
-	"hunt/internal/repository"
 	"log/slog"
+	httppapp "passion-pals-backend/internal/app/httpapp"
+	"passion-pals-backend/internal/controllers/auth"
+	"passion-pals-backend/internal/controllers/profile"
+	"passion-pals-backend/internal/repository"
 	"time"
 )
 

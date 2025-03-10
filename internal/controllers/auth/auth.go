@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"hunt/internal/repository"
 	"log/slog"
 	"net/http"
+	"passion-pals-backend/internal/repository"
 	"strings"
 	"time"
 

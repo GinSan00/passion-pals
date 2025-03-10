@@ -3,11 +3,11 @@ package notify
 import (
 	"context"
 	"fmt"
-	"hunt/internal/repository"
 	"log/slog"
 	"net/http"
+	"passion-pals-backend/internal/repository"
 
-	models "hunt/internal/models"
+	models "passion-pals-backend/internal/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"

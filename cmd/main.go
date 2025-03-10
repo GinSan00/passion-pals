@@ -1,13 +1,13 @@
 package main
 
 import (
-	"hunt/internal/config"
 	"log/slog"
 	"os"
 	"os/signal"
+	"passion-pals-backend/internal/config"
 	"syscall"
 
-	"hunt/internal/app"
+	"passion-pals-backend/internal/app"
 )
 
 const (
